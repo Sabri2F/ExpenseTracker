@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Expense Tracker</h2>
+
+      <ul id="transactions"></ul>
+
+      <div id="total">Total: 0.00 Rupees</div>
+
+      <form id="form">
+        <label for="text">Text:</label>
+        <input type="text" id="text" placeholder="Enter text..." required />
+
+        <label for="amount">Amount:</label>
+        <input
+          type="number"
+          id="amount"
+          placeholder="Enter amount..."
+          required
+        />
+
+        <button type="button" onclick="addTransaction()">
+          Add Transaction
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

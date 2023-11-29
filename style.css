@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Added basic responsive design styles */
+@media screen and (max-width: 600px) {
+  #app {
+    width: 80%;
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#app {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+#transactions {
+  list-style: none;
+  padding: 0;
+}
+
+/* Added basic animations */
+
+#transactions li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s;
+}
+
+#transactions li:hover {
+  background-color: #f9f9f9;
+}
+
+#total {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#form input,
+#form button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
