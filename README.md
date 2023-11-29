@@ -6,6 +6,7 @@ This is a simple Expense Tracker web application built with HTML, CSS, and JavaS
 
 ![image](https://github.com/Sabri2F/ExpenseTracker/assets/61088910/7ef77bda-b9e4-4b39-a064-dd2ca5e4cfa0)
 
+https://github.com/Sabri2F/ExpenseTracker/assets/61088910/40ef7d53-7d26-43e9-8ab0-077ea508e403
 
 
 ## How to Run
